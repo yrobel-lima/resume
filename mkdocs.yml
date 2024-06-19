@@ -1,3 +1,67 @@
-site_name: Resume
+site_name: Yrobel Lima Reinaldo
+
+# Repository/LinkedIn
+repo_name: ""
+repo_url: https://www.linkedin.com/in/yrobel-lima-reinaldo
+
 theme:
   name: material
+  #logo: assets/profile_picture.jpg
+  features:
+    #- announce.dismiss
+    #- content.action.edit
+    #- content.action.view
+    #- content.code.annotate
+    #- content.code.copy
+    # - content.code.select
+    # - content.footnote.tooltips
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    # - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    #- navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  palette:
+    scheme: default
+    primary: teal
+    accent: amber
+  icon:
+    repo: fontawesome/brands/linkedin
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yrobel-lima
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/yrobel-lima-reinaldo
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - smarty
+  - sane_lists
+
+nav:
+  - Home: index.md
+  - Education: education.md
+  - Experience: experience.md
+  - Skills: skills.md
+  - Projects: projects.md
