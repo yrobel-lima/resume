@@ -6,7 +6,7 @@ repo_url: https://www.linkedin.com/in/yrobel-lima-reinaldo
 
 theme:
   name: material
-  #logo: assets/profile_picture.jpg
+  logo: assets/resume.png
   features:
     #- announce.dismiss
     #- content.action.edit
@@ -60,6 +60,10 @@ plugins: []
 markdown_extensions:
   - smarty
   - sane_lists
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 nav:
   - About me: index.md
@@ -67,3 +71,4 @@ nav:
   - Experience: experience.md
   - Skills: skills.md
   - Projects: projects.md
+  - Contact: contact.md
