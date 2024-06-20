@@ -8,8 +8,6 @@ theme:
   name: material
   logo: assets/resume.png
   features:
-    #- announce.dismiss
-    #- content.action.edit
     #- content.action.view
     #- content.code.annotate
     #- content.code.copy
@@ -26,15 +24,14 @@ theme:
     # - navigation.instant.progress
     # - navigation.prune
     - navigation.sections
-    - navigation.tabs
-    #- navigation.tabs.sticky
-    # - navigation.top
+    #- navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
     - navigation.tracking
     - search.highlight
     - search.share
     - search.suggest
-    # - toc.follow
-    # - toc.integrate
+    #- toc.integrate # remove the toc
   palette:
     scheme: default
     primary: teal

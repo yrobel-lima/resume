@@ -1,6 +1,6 @@
 ---
 hide:
-  - navigation
+    - toc
 ---
 
 # Hi, I'm Yro

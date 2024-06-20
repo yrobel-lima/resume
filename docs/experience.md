@@ -1,6 +1,7 @@
 ---
 hide:
-    - navigation
+    - title
+    - toc
 ---
 
 # Experience

@@ -1,3 +1,7 @@
 .md-tooltip {
     display: none !important;
 }
+
+.md-nav__title {
+    font-size: 0;
+}
